@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Samikchha Singh — Architecture Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;color:#111;background:#fff}
+nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:999;background:rgba(255,255,255,.75);backdrop-filter:blur(20px);padding:14px 22px;border-radius:999px;box-shadow:0 10px 40px rgba(0,0,0,.08)}
+nav a{color:#111;text-decoration:none;margin:0 12px;font-size:.95rem}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#fff,#eef5ff)}
+.hero h1{font-family:Cormorant Garamond,serif;font-size:clamp(5rem,12vw,10rem)}
+.hero p{color:#666;margin:20px 0;font-size:1.2rem}
+.btn{display:inline-block;padding:14px 24px;border-radius:999px;text-decoration:none;margin:8px;font-weight:600}
+.primary{background:#0071E3;color:#fff}
+.secondary{border:1px solid #0071E3;color:#0071E3}
+.section{padding:120px 8vw}
+.project{margin:140px 0}
+.project h2{font-size:clamp(2.5rem,6vw,5rem);margin-bottom:10px}
+.project p{max-width:850px;color:#666;margin-bottom:30px}
+.heroimg,.gallery img{width:100%;border-radius:28px}
+.heroimg{box-shadow:0 25px 80px rgba(0,0,0,.12)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;margin-top:24px}
+.gallery img{box-shadow:0 12px 40px rgba(0,0,0,.08);transition:.5s}
+.gallery img:hover{transform:translateY(-8px) scale(1.01)}
+.reveal{opacity:0;transform:translateY(40px);transition:1s}
+.reveal.show{opacity:1;transform:none}
+footer{background:#0a0a0a;color:#fff;text-align:center;padding:100px 20px}
+footer h2{font-family:Cormorant Garamond,serif;font-size:4rem}
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#work">Work</a>
+
+<a href="mailto:sd8471@srmist.edu.in">Contact</a>
+</nav>
+
+<section class="hero">
+<div>
+
+<h1>Architecture</h1>
+<p style="font-size:clamp(1.2rem,2vw,1.8rem);letter-spacing:2px;">by Samikchha Singh</p>
+
+</div>
+</section>
+
+<section style="padding:80px 8vw 40px;display:flex;flex-wrap:wrap;gap:50px;align-items:center;justify-content:center;">
+  <div>
+    <img src="images/samikchha-profile.jpg" alt="Samikchha Singh"
+         style="width:280px;height:360px;object-fit:cover;border-radius:24px;
+         box-shadow:0 20px 60px rgba(0,0,0,.12);background:#f2f2f2;">
+  </div>
+  <div style="max-width:700px;">
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:4rem;margin-bottom:10px;">
+      Samikchha Singh
+    </h2>
+    <p style="font-size:1.1rem;color:#666;line-height:1.8;">
+      Architecture student with a strong interest in sustainable design,
+      contextual architecture, computational workflows and spatial storytelling.
+      This portfolio showcases selected academic and design projects developed
+      between 2021–2026.
+    </p>
+  </div>
+</section>
+
+<section id="work" class="section">
+
+<div class="project reveal">
+<h2>Shopping Mall</h2>
+<p>Pondicherry retail experience inspired by French colonial character and spatial storytelling.</p>
+<img class="heroimg" src="images/shoppingmall-hero.jpg">
+<div class="gallery">
+<img src="images/shoppingmall-concept.jpg">
+<img src="images/shoppingmall-analysis.jpg">
+<img src="images/shoppingmall-final.jpg">
+</div>
+</div>
+
+<div class="project reveal">
+<h2>Hillside Resort</h2>
+<p>Luxury hospitality project integrated into the natural topography of Coorg.</p>
+<img class="heroimg" src="images/resort-hero.jpg">
+<div class="gallery">
+<img src="images/resort-site.jpg">
+<img src="images/resort-standard.jpg">
+<img src="images/resort-luxury.jpg">
+<img src="images/resort-restaurant.jpg">
+</div>
+</div>
+
+<div class="project reveal">
+<h2>Marketplace Rome</h2>
+<img class="heroimg" src="images/marketplace-hero.jpg">
+<div class="gallery"><img src="images/marketplace-gallery.jpg"></div>
+</div>
+
+<div class="project reveal">
+<h2>Primary School</h2>
+<img class="heroimg" src="images/school-hero.jpg">
+<div class="gallery">
+<img src="images/school-groundfloor.jpg">
+<img src="images/school-services.jpg">
+</div>
+</div>
+
+<div class="project reveal">
+<h2>Residence Working Drawings</h2>
+<img class="heroimg" src="images/residence-hero.jpg">
+<div class="gallery">
+<img src="images/residence-groundfloor.jpg">
+<img src="images/residence-firstfloor.jpg">
+<img src="images/residence-electrical.jpg">
+</div>
+</div>
+
+<div class="project reveal">
+<h2>Parametric Tunnel</h2>
+<img class="heroimg" src="images/parametric-hero.jpg">
+<div class="gallery"><img src="images/parametric-grasshopper.jpg"></div>
+</div>
+
+</section>
+
+
+<section class="section" style="text-align:center;padding-top:40px;padding-bottom:120px;">
+<h2 style="font-family:Cormorant Garamond,serif;font-size:3.5rem;margin-bottom:20px;">View Complete Portfolio</h2>
+<p style="color:#666;max-width:700px;margin:auto;margin-bottom:30px;">
+Explore the complete architecture portfolio in its original presentation format.
+</p>
+<a href="portfolio.pdf" target="_blank" style="display:inline-block;background:#0071E3;color:white;text-decoration:none;padding:16px 32px;border-radius:999px;font-weight:600;">
+View Portfolio
+</a>
+</section>
+
+<footer>
+
+<h2>Samikchha Singh</h2>
+<p>Architecture Student • SRMIST</p>
+<p>Download full portfolio PDF from the top navigation.</p>
+</footer>
+
+<script>
+const obs=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+
+</body>
+</html>
